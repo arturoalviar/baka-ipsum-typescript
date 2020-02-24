@@ -1,0 +1,67 @@
+{
+  "name": "baka-ipsum",
+  "description": "A useless ipsum generator",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Arturo Alviar <yo@arturoalviar.dev>",
+  "dependencies": {
+    "@openfonts/noto-sans-jp_japanese": "^1.44.0",
+    "@reach/router": "^1.2.1",
+    "@types/node": "12.7.11",
+    "@types/reach__router": "^1.2.6",
+    "@types/react": "16.9.5",
+    "@types/react-dom": "16.9.1",
+    "@types/react-helmet": "^5.0.15",
+    "@types/smoothscroll-polyfill": "^0.3.1",
+    "@types/styled-components": "^4.4.0",
+    "@types/styled-theming": "^2.2.2",
+    "babel-plugin-styled-components": "^1.10.6",
+    "query-string": "^6.8.3",
+    "react": "^16.10.2",
+    "react-compound-slider": "^2.4.0",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-scripts": "3.2.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "styled-components": "^4.4.1",
+    "styled-theming": "^2.2.0",
+    "typescript": "3.6.3"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.4",
+    "@types/jest": "^24.0.25",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.4.3",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arturoalviar/baka-ipsum-typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/arturoalviar/baka-ipsum-typescript/issues"
+  }
+}
